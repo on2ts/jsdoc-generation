@@ -32,6 +32,7 @@
   },
   "homepage": "",
   "devDependencies": {
+    "@comunica/actor-init-sparql": "^1.19.2",
     "@types/jest": "^26.0.19",
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
@@ -49,7 +50,7 @@
     "preset": "ts-jest",
     "collectCoverage": true,
     "coverageReporters": [
-      "json-summary", 
+      "json-summary",
       "text",
       "lcov"
     ],
@@ -81,5 +82,8 @@
         "prerelease": true
       }
     ]
+  },
+  "dependencies": {
+    "ts-morph": "^9.1.0"
   }
 }
