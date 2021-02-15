@@ -10,7 +10,11 @@ Generates JSDoc annotations based on ontology file declarations.
 
 ## Usage
 
-TODO: SHOW USAGE
+```ts
+import { JSDocGenerator } from '@on2ts/jsdoc-generation'
+
+// TODO: DEMONSTRATE API
+```
 
 ## License
 ©2021–present
